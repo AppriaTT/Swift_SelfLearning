@@ -11,6 +11,6 @@
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/Swift02CustomFont/Swift02CustomFont/02.png)
 
 #swift03 localVideo
-播放本地视频;  加载自定义的tableViewcell: 写了协议, 数据传输
+播放本地视频;  加载自定义的tableViewcell: 写了协议, 数据传输 全部使用了代码完成, 没有用sb.有很多不懂的细节
 
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift03video/swift03video/03.png)
