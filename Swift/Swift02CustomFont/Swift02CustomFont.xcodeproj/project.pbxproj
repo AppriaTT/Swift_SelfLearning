@@ -12,6 +12,11 @@
 		98433AA71D2D097A00E86747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98433AA51D2D097A00E86747 /* Main.storyboard */; };
 		98433AA91D2D097A00E86747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98433AA81D2D097A00E86747 /* Assets.xcassets */; };
 		98433AAC1D2D097A00E86747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98433AAA1D2D097A00E86747 /* LaunchScreen.storyboard */; };
+		98433AD91D2DFCE400E86747 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98433AD81D2DFCE400E86747 /* Gaspar Regular.otf */; };
+		98433ADA1D2DFDAD00E86747 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98433AD51D2DFA7D00E86747 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		98433ADB1D2DFDAD00E86747 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98433AD61D2DFA7D00E86747 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		98433ADC1D2DFDAD00E86747 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98433AD71D2DFA7D00E86747 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		98433AE01D2DFE7900E86747 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 98433ADF1D2DFE7900E86747 /* 02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		98433AA81D2D097A00E86747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98433AAB1D2D097A00E86747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98433AAD1D2D097A00E86747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98433AD51D2DFA7D00E86747 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		98433AD61D2DFA7D00E86747 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		98433AD71D2DFA7D00E86747 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		98433AD81D2DFCE400E86747 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		98433ADF1D2DFE7900E86747 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				98433AA11D2D097A00E86747 /* AppDelegate.swift */,
 				98433AA31D2D097A00E86747 /* ViewController.swift */,
 				98433AA51D2D097A00E86747 /* Main.storyboard */,
+				98433ADF1D2DFE7900E86747 /* 02.png */,
 				98433AA81D2D097A00E86747 /* Assets.xcassets */,
 				98433AAA1D2D097A00E86747 /* LaunchScreen.storyboard */,
 				98433AAD1D2D097A00E86747 /* Info.plist */,
+				98433AD81D2DFCE400E86747 /* Gaspar Regular.otf */,
+				98433AD51D2DFA7D00E86747 /* MFJinHei_Noncommercial-Regular.ttf */,
+				98433AD61D2DFA7D00E86747 /* MFTongXin_Noncommercial-Regular.ttf */,
+				98433AD71D2DFA7D00E86747 /* MFZhiHei_Noncommercial-Regular.ttf */,
 			);
 			path = Swift02CustomFont;
 			sourceTree = "<group>";
@@ -122,7 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98433AE01D2DFE7900E86747 /* 02.png in Resources */,
+				98433ADA1D2DFDAD00E86747 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				98433ADB1D2DFDAD00E86747 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				98433ADC1D2DFDAD00E86747 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				98433AAC1D2D097A00E86747 /* LaunchScreen.storyboard in Resources */,
+				98433AD91D2DFCE400E86747 /* Gaspar Regular.otf in Resources */,
 				98433AA91D2D097A00E86747 /* Assets.xcassets in Resources */,
 				98433AA71D2D097A00E86747 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +306,7 @@
 				98433AB21D2D097A00E86747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
