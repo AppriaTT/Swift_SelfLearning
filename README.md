@@ -12,4 +12,5 @@
 
 #swift03 localVideo
 播放本地视频;  加载自定义的tableViewcell: 写了协议, 数据传输
+
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift03video/swift03video/03.png)
