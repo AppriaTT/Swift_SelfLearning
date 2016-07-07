@@ -6,3 +6,6 @@
 #swift01 Timer
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/Swift01Timer/Swift01Timer/01.png)
 
+#swift02 customFont
+自定义字体的切换, 运用到了tableview 和 字体的设定, 需要进行一些操作, 建议去原博看一看
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/Swift02CustomFont/Swift02CustomFont/02.png)
