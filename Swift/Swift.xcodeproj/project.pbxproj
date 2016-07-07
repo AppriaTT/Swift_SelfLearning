@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		980011E91D2E6CEF00D6136C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 980011CD1D2E6CEE00D6136C;
+			remoteInfo = "swift04 snapchatMenu";
+		};
 		98433A931D2D096200E86747 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */;
@@ -31,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift04 snapchatMenu.xcodeproj"; path = "swift04 snapchatMenu/swift04 snapchatMenu.xcodeproj"; sourceTree = "<group>"; };
 		98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift01Timer.xcodeproj; path = Swift01Timer/Swift01Timer.xcodeproj; sourceTree = "<group>"; };
 		98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift02CustomFont.xcodeproj; path = Swift02CustomFont/Swift02CustomFont.xcodeproj; sourceTree = "<group>"; };
 		98433ACA1D2D0A8200E86747 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		980011E31D2E6CEF00D6136C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980011EA1D2E6CEF00D6136C /* swift04 snapchatMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */,
 				98433B011D2E014500E86747 /* swift03video.xcodeproj */,
 				98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */,
 				98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */,
@@ -141,6 +158,10 @@
 					ProductGroup = 98433B021D2E014500E86747 /* Products */;
 					ProjectRef = 98433B011D2E014500E86747 /* swift03video.xcodeproj */;
 				},
+				{
+					ProductGroup = 980011E31D2E6CEF00D6136C /* Products */;
+					ProjectRef = 980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -150,6 +171,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		980011EA1D2E6CEF00D6136C /* swift04 snapchatMenu.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift04 snapchatMenu.app";
+			remoteRef = 980011E91D2E6CEF00D6136C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		98433A941D2D096200E86747 /* Swift01Timer.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -230,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -269,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -282,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AppariTT.Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AppariTT.Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
