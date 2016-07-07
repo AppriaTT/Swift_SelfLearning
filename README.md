@@ -4,3 +4,5 @@
 # 争取每天坚持一发, 从代码中感受到swift的美, 争取早日重写公司的app
 
 #swift Timer
++![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/Swift01Timer/Swift01Timer/01.png)
+
