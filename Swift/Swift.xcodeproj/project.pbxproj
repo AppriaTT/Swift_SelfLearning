@@ -21,12 +21,20 @@
 			remoteGlobalIDString = 98433A9E1D2D097A00E86747;
 			remoteInfo = Swift02CustomFont;
 		};
+		98433B071D2E014500E86747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98433B011D2E014500E86747 /* swift03video.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98433AEC1D2E014500E86747;
+			remoteInfo = swift03video;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift01Timer.xcodeproj; path = Swift01Timer/Swift01Timer.xcodeproj; sourceTree = "<group>"; };
 		98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift02CustomFont.xcodeproj; path = Swift02CustomFont/Swift02CustomFont.xcodeproj; sourceTree = "<group>"; };
 		98433ACA1D2D0A8200E86747 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98433B011D2E014500E86747 /* swift03video.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift03video.xcodeproj; path = swift03video/swift03video.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98433B011D2E014500E86747 /* swift03video.xcodeproj */,
 				98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */,
 				98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */,
 				98433ACA1D2D0A8200E86747 /* Swift.app */,
@@ -61,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				98433AB81D2D097B00E86747 /* Swift02CustomFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98433B021D2E014500E86747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98433B081D2E014500E86747 /* swift03video.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +137,10 @@
 					ProductGroup = 98433AB41D2D097A00E86747 /* Products */;
 					ProjectRef = 98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */;
 				},
+				{
+					ProductGroup = 98433B021D2E014500E86747 /* Products */;
+					ProjectRef = 98433B011D2E014500E86747 /* swift03video.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -141,6 +162,13 @@
 			fileType = wrapper.application;
 			path = Swift02CustomFont.app;
 			remoteRef = 98433AB71D2D097B00E86747 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98433B081D2E014500E86747 /* swift03video.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swift03video.app;
+			remoteRef = 98433B071D2E014500E86747 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
