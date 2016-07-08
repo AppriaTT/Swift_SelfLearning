@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIApplication.sharedApplication().statusBarHidden = true
-        
         // Do any additional setup after loading the view, typically from a nib.
         let leftView = UIImageView(image: UIImage(named: "left"))
         let rightView = UIImageView(image: UIImage(named: "right"))
@@ -38,7 +36,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 
