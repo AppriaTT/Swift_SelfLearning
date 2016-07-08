@@ -18,4 +18,5 @@
 #swift04 snapchatMenu
 模仿了snapchat的界面 左右滑动, 中间是实时采集的视频数据, 可以点击拍照;
 中间有一个小坑: 我没有照抄原来作者的代码, 使用了自定义的view 显示层的frame设置需要先后看一下
+
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift04%20snapchatMenu/swift04%20snapchatMenu/04.png)
