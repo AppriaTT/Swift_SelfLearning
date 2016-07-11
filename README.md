@@ -40,3 +40,8 @@ placeMark: CLPlacemark?
  if let containsPlacemark = placeMark {} 这样是可以直接判断其中是否有值的
  
  ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift06%20findMyLocation/swift06%20findMyLocation/06.png)
+ 
+#swift07 下拉刷新 
+没有什么盲点 使用的系统的控件
+
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift07%20pullToRefresh/swift07%20pullToRefresh/07.gif)
