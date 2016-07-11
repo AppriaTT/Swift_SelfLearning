@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swift06_findMyLocation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="jLN-C7-FSe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kh5-dq-Jb5">
+                                <rect key="frame" x="78" y="568" width="218" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="Bdy-bE-u6Y"/>
+                                    <constraint firstAttribute="width" constant="218" id="PUw-qI-kHj"/>
+                                </constraints>
+                                <state key="normal" title="find my location" backgroundImage="Find my location">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SFT-IO-he5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnp-V7-SD6">
+                                <rect key="frame" x="54" y="202" width="266" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="tSQ-mV-PAV"/>
+                                    <constraint firstAttribute="width" constant="266" id="u8k-Cm-m86"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mnp-V7-SD6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="182" id="0TW-Zg-Rnm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jLN-C7-FSe" secondAttribute="bottom" id="628-Sw-8kG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jLN-C7-FSe" secondAttribute="trailing" constant="-20" id="K9e-48-d6u"/>
+                            <constraint firstItem="kh5-dq-Jb5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFp-zi-9RG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kh5-dq-Jb5" secondAttribute="bottom" constant="40" id="aOz-Jp-Spr"/>
+                            <constraint firstItem="mnp-V7-SD6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bnG-Fb-nVd"/>
+                            <constraint firstItem="jLN-C7-FSe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="cT1-1n-SsQ"/>
+                            <constraint firstItem="jLN-C7-FSe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="exI-Sy-lBg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="locationL" destination="mnp-V7-SD6" id="UWn-9h-aM1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492.5" y="339.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Find my location" width="326" height="78"/>
+        <image name="bg" width="375" height="667"/>
+    </resources>
+</document>

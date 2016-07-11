@@ -9,7 +9,6 @@
 import UIKit
 import AVKit
 import AVFoundation
-
 class ViewController: UIViewController, UITableViewDataSource , UITableViewDelegate, zhVideoCellDelegate{
     var dataSource = [
         zhVideo(image: "videoScreenshot01", title: "Introduce 3DS Mario", source: "Youtube - 06:32"),
