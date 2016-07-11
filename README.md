@@ -20,3 +20,16 @@
 中间有一个小坑: 我没有照抄原来作者的代码, 使用了自定义的view 显示层的frame设置需要先后看一下
 
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift04%20snapchatMenu/swift04%20snapchatMenu/04.png)
+
+#swift05 roll view
+直接使用了collectionView 中间卡了很久不显示图像, 感叹号和问号的意义需要明确一下, 
+
+##问号 ? 有两个意义:
+1.声明Optional值变量
+2.用在对Optional值操作中，用来判断是否能响应后面的操作
+
+##感叹号!有两个意义
+1.强制对Optional值进行拆包(unwrap)
+2.声明Implicitly Unwrapped Optionals值，一般用于类中的属性
+
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift05%20roll%20view/swift05%20roll%20view/05.png)
