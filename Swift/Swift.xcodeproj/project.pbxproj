@@ -49,6 +49,13 @@
 			remoteGlobalIDString = 98433AEC1D2E014500E86747;
 			remoteInfo = swift03video;
 		};
+		98B906F31D339AF300878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B906D41D339AF200878F20;
+			remoteInfo = "swift07 pullToRefresh";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +66,7 @@
 		98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift02CustomFont.xcodeproj; path = Swift02CustomFont/Swift02CustomFont.xcodeproj; sourceTree = "<group>"; };
 		98433ACA1D2D0A8200E86747 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98433B011D2E014500E86747 /* swift03video.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift03video.xcodeproj; path = swift03video/swift03video.xcodeproj; sourceTree = "<group>"; };
+		98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift07 pullToRefresh.xcodeproj"; path = "swift07 pullToRefresh/swift07 pullToRefresh.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */,
 				9800125B1D333C3400D6136C /* swift06 findMyLocation.xcodeproj */,
 				980012231D2F716700D6136C /* swift05 roll view.xcodeproj */,
 				980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */,
@@ -129,6 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				98433B081D2E014500E86747 /* swift03video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B906EA1D339AF200878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B906F41D339AF300878F20 /* swift07 pullToRefresh.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +221,10 @@
 					ProductGroup = 9800125C1D333C3400D6136C /* Products */;
 					ProjectRef = 9800125B1D333C3400D6136C /* swift06 findMyLocation.xcodeproj */;
 				},
+				{
+					ProductGroup = 98B906EA1D339AF200878F20 /* Products */;
+					ProjectRef = 98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -253,6 +274,13 @@
 			fileType = wrapper.application;
 			path = swift03video.app;
 			remoteRef = 98433B071D2E014500E86747 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B906F41D339AF300878F20 /* swift07 pullToRefresh.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift07 pullToRefresh.app";
+			remoteRef = 98B906F31D339AF300878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
