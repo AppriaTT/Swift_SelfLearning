@@ -32,7 +32,7 @@
 1.强制对Optional值进行拆包(unwrap)
 2.声明Implicitly Unwrapped Optionals值，一般用于类中的属性
 
-![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift05%20roll%20view/swift05%20roll%20view/05.png)
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift05%20roll%20view/swift05%20roll%20view/05.gif)
 
 #swift06 find my location 位置反编码
 遇到一个语法盲点
