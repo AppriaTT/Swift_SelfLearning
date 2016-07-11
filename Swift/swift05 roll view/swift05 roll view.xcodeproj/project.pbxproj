@@ -14,6 +14,7 @@
 		9800121C1D2F716700D6136C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9800121A1D2F716700D6136C /* LaunchScreen.storyboard */; };
 		980012301D2F8E8900D6136C /* ZHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800122F1D2F8E8900D6136C /* ZHCollectionViewCell.swift */; };
 		980012321D2FB95300D6136C /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 980012311D2FB95300D6136C /* 05.png */; };
+		98B906C41D334EC100878F20 /* 05.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98B906C31D334EC100878F20 /* 05.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9800121D1D2F716700D6136C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9800122F1D2F8E8900D6136C /* ZHCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCollectionViewCell.swift; sourceTree = "<group>"; };
 		980012311D2FB95300D6136C /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		98B906C31D334EC100878F20 /* 05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 05.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9800122F1D2F8E8900D6136C /* ZHCollectionViewCell.swift */,
 				980012151D2F716700D6136C /* Main.storyboard */,
 				980012181D2F716700D6136C /* Assets.xcassets */,
+				98B906C31D334EC100878F20 /* 05.gif */,
 				980012311D2FB95300D6136C /* 05.png */,
 				9800121A1D2F716700D6136C /* LaunchScreen.storyboard */,
 				9800121D1D2F716700D6136C /* Info.plist */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B906C41D334EC100878F20 /* 05.gif in Resources */,
 				9800121C1D2F716700D6136C /* LaunchScreen.storyboard in Resources */,
 				980012191D2F716700D6136C /* Assets.xcassets in Resources */,
 				980012171D2F716700D6136C /* Main.storyboard in Resources */,
@@ -294,6 +298,7 @@
 				980012221D2F716700D6136C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
