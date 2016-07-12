@@ -45,3 +45,8 @@ placeMark: CLPlacemark?
 没有什么盲点 使用的系统的控件
 
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift07%20pullToRefresh/swift07%20pullToRefresh/07.gif)
+
+#swift08 播放本地音频 自动切换颜色 
+do try catch 语法
+
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift08%20randomColorization/swift08%20randomColorization/08.gif)
