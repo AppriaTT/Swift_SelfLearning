@@ -44,9 +44,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         cell.textLabel!.text = dataSource[indexPath.row]
         
-        let f = Float(random()%255)
-        print(f)
-        cell.backgroundColor = UIColor(colorLiteralRed: f, green: f, blue: f, alpha: 0.5)
+        cell.backgroundColor = UIColor(red: CGFloat(random()%255)/255.0, green: CGFloat(random()%255)/255.0, blue: CGFloat(random()%255)/255.0, alpha: 0.5)
         return cell
     }
     
