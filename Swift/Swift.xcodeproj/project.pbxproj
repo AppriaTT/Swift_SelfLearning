@@ -70,6 +70,13 @@
 			remoteGlobalIDString = 98B907461D3620B000878F20;
 			remoteInfo = "swift09 ImageScrollerEffect";
 		};
+		98B9079F1D36342B00878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B9077D1D36342A00878F20;
+			remoteInfo = "swift10 videoBG";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +90,7 @@
 		98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift07 pullToRefresh.xcodeproj"; path = "swift07 pullToRefresh/swift07 pullToRefresh.xcodeproj"; sourceTree = "<group>"; };
 		98B9071C1D34908000878F20 /* swift08 randomColorization.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift08 randomColorization.xcodeproj"; path = "swift08 randomColorization/swift08 randomColorization.xcodeproj"; sourceTree = "<group>"; };
 		98B9075B1D3620B000878F20 /* swift09 ImageScrollerEffect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift09 ImageScrollerEffect.xcodeproj"; path = "swift09 ImageScrollerEffect/swift09 ImageScrollerEffect.xcodeproj"; sourceTree = "<group>"; };
+		98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift10 videoBG.xcodeproj"; path = "swift10 videoBG/swift10 videoBG.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */,
 				98B9075B1D3620B000878F20 /* swift09 ImageScrollerEffect.xcodeproj */,
 				98B9071C1D34908000878F20 /* swift08 randomColorization.xcodeproj */,
 				98B906E91D339AF200878F20 /* swift07 pullToRefresh.xcodeproj */,
@@ -180,6 +189,14 @@
 			isa = PBXGroup;
 			children = (
 				98B907681D3620B100878F20 /* swift09 ImageScrollerEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B907931D36342A00878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B907A01D36342B00878F20 /* swift10 videoBG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,6 +284,10 @@
 					ProductGroup = 98B9075C1D3620B000878F20 /* Products */;
 					ProjectRef = 98B9075B1D3620B000878F20 /* swift09 ImageScrollerEffect.xcodeproj */;
 				},
+				{
+					ProductGroup = 98B907931D36342A00878F20 /* Products */;
+					ProjectRef = 98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -337,6 +358,13 @@
 			fileType = wrapper.application;
 			path = "swift09 ImageScrollerEffect.app";
 			remoteRef = 98B907671D3620B100878F20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B907A01D36342B00878F20 /* swift10 videoBG.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift10 videoBG.app";
+			remoteRef = 98B9079F1D36342B00878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
