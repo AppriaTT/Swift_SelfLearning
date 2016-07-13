@@ -50,3 +50,8 @@ placeMark: CLPlacemark?
 do try catch 语法
 
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift08%20randomColorization/swift08%20randomColorization/08.gif)
+
+#swift09 缩放拉伸图片
+遇到一个bug点, 放大后图片会位移, 需要在开始的时候设置一下contentInset
+
+![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift09%20ImageScrollerEffect/swift09%20ImageScrollerEffect/09.gif)
