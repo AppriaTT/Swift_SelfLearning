@@ -60,3 +60,7 @@ do try catch 语法
 异步播放的代码需要熟悉, 自定了一些控件 ,需要注意一些问题
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift10%20videoBG/swift10%20videoBG/10.gif)
+
+#swift11 透明cell
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift11%20clearTBCell/swift11%20clearTBCell/11.png)
