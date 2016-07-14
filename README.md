@@ -55,3 +55,8 @@ do try catch 语法
 遇到一个bug点, 放大后图片会位移, 需要在开始的时候设置一下contentInset
 
 ![](https://raw.githubusercontent.com/AppriaTT/Swift_SelfLearning/master/Swift/swift09%20ImageScrollerEffect/swift09%20ImageScrollerEffect/09.gif)
+
+#swift10 异步播放小视频
+异步播放的代码需要熟悉, 自定了一些控件 ,需要注意一些问题
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift10%20videoBG/swift10%20videoBG/10.gif)
