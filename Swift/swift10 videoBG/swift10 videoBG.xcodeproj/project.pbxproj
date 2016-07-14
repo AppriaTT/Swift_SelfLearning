@@ -14,6 +14,8 @@
 		98B9078B1D36342A00878F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B907891D36342A00878F20 /* LaunchScreen.storyboard */; };
 		98B907A21D36344000878F20 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 98B907A11D36344000878F20 /* moments.mp4 */; };
 		98B907A41D3645D200878F20 /* ZHVideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B907A31D3645D200878F20 /* ZHVideoSplashViewController.swift */; };
+		98B907C41D372C2700878F20 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B907C31D372C2700878F20 /* VideoCutter.swift */; };
+		98B907C61D37388500878F20 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98B907C51D37388500878F20 /* 10.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		98B9078C1D36342A00878F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B907A11D36344000878F20 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		98B907A31D3645D200878F20 /* ZHVideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHVideoSplashViewController.swift; sourceTree = "<group>"; };
+		98B907C31D372C2700878F20 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		98B907C51D37388500878F20 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				98B907801D36342A00878F20 /* AppDelegate.swift */,
 				98B907821D36342A00878F20 /* ViewController.swift */,
 				98B907A31D3645D200878F20 /* ZHVideoSplashViewController.swift */,
+				98B907C51D37388500878F20 /* 10.gif */,
+				98B907C31D372C2700878F20 /* VideoCutter.swift */,
 				98B907841D36342A00878F20 /* Main.storyboard */,
 				98B907871D36342A00878F20 /* Assets.xcassets */,
 				98B907891D36342A00878F20 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B907C61D37388500878F20 /* 10.gif in Resources */,
 				98B9078B1D36342A00878F20 /* LaunchScreen.storyboard in Resources */,
 				98B907A21D36344000878F20 /* moments.mp4 in Resources */,
 				98B907881D36342A00878F20 /* Assets.xcassets in Resources */,
@@ -144,6 +151,7 @@
 			files = (
 				98B907A41D3645D200878F20 /* ZHVideoSplashViewController.swift in Sources */,
 				98B907831D36342A00878F20 /* ViewController.swift in Sources */,
+				98B907C41D372C2700878F20 /* VideoCutter.swift in Sources */,
 				98B907811D36342A00878F20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,7 @@
 				98B907911D36342A00878F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
