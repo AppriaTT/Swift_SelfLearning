@@ -84,6 +84,13 @@
 			remoteGlobalIDString = 98B907D01D37408700878F20;
 			remoteInfo = "swift11 clearTBCell";
 		};
+		98B908351D378E2700878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B908261D378E2700878F20 /* swift12.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B908111D378E2700878F20;
+			remoteInfo = swift12;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +106,7 @@
 		98B9075B1D3620B000878F20 /* swift09 ImageScrollerEffect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift09 ImageScrollerEffect.xcodeproj"; path = "swift09 ImageScrollerEffect/swift09 ImageScrollerEffect.xcodeproj"; sourceTree = "<group>"; };
 		98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift10 videoBG.xcodeproj"; path = "swift10 videoBG/swift10 videoBG.xcodeproj"; sourceTree = "<group>"; };
 		98B907E51D37408700878F20 /* swift11 clearTBCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift11 clearTBCell.xcodeproj"; path = "swift11 clearTBCell/swift11 clearTBCell.xcodeproj"; sourceTree = "<group>"; };
+		98B908261D378E2700878F20 /* swift12.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift12.xcodeproj; path = swift12/swift12.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B908261D378E2700878F20 /* swift12.xcodeproj */,
 				98B907E51D37408700878F20 /* swift11 clearTBCell.xcodeproj */,
 				98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */,
 				98B9075B1D3620B000878F20 /* swift09 ImageScrollerEffect.xcodeproj */,
@@ -214,6 +223,14 @@
 			isa = PBXGroup;
 			children = (
 				98B907F41D37408800878F20 /* swift11 clearTBCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B908271D378E2700878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B908361D378E2700878F20 /* swift12.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,6 +326,10 @@
 					ProductGroup = 98B907E61D37408700878F20 /* Products */;
 					ProjectRef = 98B907E51D37408700878F20 /* swift11 clearTBCell.xcodeproj */;
 				},
+				{
+					ProductGroup = 98B908271D378E2700878F20 /* Products */;
+					ProjectRef = 98B908261D378E2700878F20 /* swift12.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -393,6 +414,13 @@
 			fileType = wrapper.application;
 			path = "swift11 clearTBCell.app";
 			remoteRef = 98B907F31D37408800878F20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B908361D378E2700878F20 /* swift12.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swift12.app;
+			remoteRef = 98B908351D378E2700878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
