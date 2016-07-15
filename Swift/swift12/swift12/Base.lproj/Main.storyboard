@@ -25,18 +25,27 @@
                                     <segue destination="yZs-nQ-CHF" kind="show" id="5mx-Pn-m20"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="KkP-Jy-IT1">
+                                <rect key="frame" x="77" y="98" width="221" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="OqD-Le-6LF"/>
+                                    <constraint firstAttribute="height" constant="72" id="rYM-OC-DKZ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.01583978628" green="0.89500163610000005" blue="0.21636222369999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Nz5-dO-LOJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fbr-Ly-UUu"/>
                             <constraint firstItem="Nz5-dO-LOJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gbb-7A-gUY"/>
+                            <constraint firstItem="KkP-Jy-IT1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="Yr0-YW-peE"/>
+                            <constraint firstItem="KkP-Jy-IT1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEw-ZN-dlD"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323.5" y="337.5"/>
+            <point key="canvasLocation" x="98.5" y="332.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bTD-h8-lTI">
@@ -50,32 +59,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5AB-7X-vVi">
-                                <rect key="frame" x="112" y="131" width="147" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="account" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="5AB-7X-vVi">
+                                <rect key="frame" x="88" y="140" width="200" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="J4z-9h-sIW"/>
-                                    <constraint firstAttribute="width" constant="147" id="r2D-2S-7zG"/>
+                                    <constraint firstAttribute="height" constant="50" id="J4z-9h-sIW"/>
+                                    <constraint firstAttribute="width" constant="200" id="r2D-2S-7zG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9d-LA-rxd">
-                                <rect key="frame" x="139" y="319" width="92" height="39"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BAP-rO-mgB">
+                                <rect key="frame" x="88" y="228" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="JFf-ej-vb0"/>
+                                    <constraint firstAttribute="height" constant="50" id="NOc-16-CEF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkf-Jv-3aa">
+                                <rect key="frame" x="0.0" y="0.0" width="14" height="24"/>
+                                <state key="normal" backgroundImage="Back-icon"/>
+                                <connections>
+                                    <action selector="backBtnClicked:" destination="yZs-nQ-CHF" eventType="touchUpInside" id="6tI-qv-XcO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9d-LA-rxd">
+                                <rect key="frame" x="132" y="314" width="111" height="40"/>
+                                <color key="backgroundColor" red="0.071287048456801977" green="0.76705660994764402" blue="0.21101531776130469" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="8kk-2Z-HUU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="登陆"/>
                                 <connections>
                                     <action selector="loginBtnClicked:" destination="yZs-nQ-CHF" eventType="touchUpInside" id="fpA-wT-0sI"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BAP-rO-mgB">
-                                <rect key="frame" x="112" y="199" width="147" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="147" id="JFf-ej-vb0"/>
-                                    <constraint firstAttribute="height" constant="30" id="NOc-16-CEF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.01583978628" green="0.89500163610000005" blue="0.21636222369999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -89,6 +110,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="centerCsFirst" destination="jhg-pO-qjd" id="iMK-VW-IPM"/>
+                        <outlet property="centerCsSec" destination="QO7-VO-lCl" id="CdE-N4-TwY"/>
                         <outlet property="firstTF" destination="5AB-7X-vVi" id="N36-uj-nHv"/>
                         <outlet property="loginBtn" destination="t9d-LA-rxd" id="O6b-Mr-Yas"/>
                         <outlet property="secTF" destination="BAP-rO-mgB" id="h3e-Ru-dX8"/>
@@ -96,7 +119,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eJ-nN-Xca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780.5" y="337.5"/>
+            <point key="canvasLocation" x="552.5" y="332.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Back-icon" width="14" height="24"/>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
 </document>

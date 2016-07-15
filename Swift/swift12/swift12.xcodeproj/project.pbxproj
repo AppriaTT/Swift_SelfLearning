@@ -12,6 +12,7 @@
 		98B9081A1D378E2700878F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B908181D378E2700878F20 /* Main.storyboard */; };
 		98B9081C1D378E2700878F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B9081B1D378E2700878F20 /* Assets.xcassets */; };
 		98B9081F1D378E2700878F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B9081D1D378E2700878F20 /* LaunchScreen.storyboard */; };
+		98B9085B1D38893F00878F20 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98B9085A1D38893F00878F20 /* 12.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98B9081B1D378E2700878F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B9081E1D378E2700878F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B908201D378E2700878F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B9085A1D38893F00878F20 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				98B908141D378E2700878F20 /* AppDelegate.swift */,
 				98B908161D378E2700878F20 /* ViewController.swift */,
+				98B9085A1D38893F00878F20 /* 12.gif */,
 				98B908181D378E2700878F20 /* Main.storyboard */,
 				98B9081B1D378E2700878F20 /* Assets.xcassets */,
 				98B9081D1D378E2700878F20 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B9081F1D378E2700878F20 /* LaunchScreen.storyboard in Resources */,
+				98B9085B1D38893F00878F20 /* 12.gif in Resources */,
 				98B9081C1D378E2700878F20 /* Assets.xcassets in Resources */,
 				98B9081A1D378E2700878F20 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +290,7 @@
 				98B908251D378E2700878F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
