@@ -1,3 +1,8 @@
+
+![](http://img.shields.io/badge/iOS-8.0%2B-blue.svg) 
+![](http://img.shields.io/badge/Swift-2.0-blue.svg)
+![License](https://img.shields.io/github/license/lexrus/VPNOn.svg?style=flat)    
+
 # Swift_SelfLearning
 学习前辈自学swift的小项目 贴上他的github  https://github.com/allenwong/30DaysofSwift  还有他的简书讲解, 如果学习过程中遇到问题就去看看他的操作 http://www.jianshu.com/p/52032bc4cbe4
 
