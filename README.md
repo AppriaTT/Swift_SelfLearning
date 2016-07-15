@@ -72,4 +72,9 @@ do try catch 语法
 #swift12 登陆动画
 spring动画
 
-https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift12/swift12/12.gif
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift12/swift12/12.gif)
+
+#swift13 飞入的cell
+spring动画
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift13/swift13/13.gif)
