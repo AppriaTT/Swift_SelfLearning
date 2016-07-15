@@ -78,3 +78,6 @@ spring动画
 spring动画
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift13/swift13/13.gif)
+
+#swift14 转动的表情 选择器
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift14%20EmojiMachine/swift14%20EmojiMachine/14.gif)
