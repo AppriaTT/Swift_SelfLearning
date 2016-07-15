@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var timeL: UILabel!
     
     var timer = NSTimer()
+    
     var Counter = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()

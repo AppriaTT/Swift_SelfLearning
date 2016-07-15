@@ -12,6 +12,7 @@ import AVFoundation
 class ViewController: UIViewController, UITableViewDataSource , UITableViewDelegate, zhVideoCellDelegate{
     var dataSource = [
         zhVideo(image: "videoScreenshot01", title: "Introduce 3DS Mario", source: "Youtube - 06:32"),
+    
         zhVideo(image: "videoScreenshot02", title: "Emoji Among Us", source: "Vimeo - 3:34"),
         zhVideo(image: "videoScreenshot03", title: "Seals Documentary", source: "Vine - 00:06"),
         zhVideo(image: "videoScreenshot04", title: "Adventure Time", source: "Youtube - 02:39"),

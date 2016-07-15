@@ -22,6 +22,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     @IBAction func findClicked(sender: AnyObject) {
        locationManager = CLLocationManager()
         locationManager.delegate = self
