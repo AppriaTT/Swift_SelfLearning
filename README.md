@@ -69,3 +69,7 @@ do try catch 语法
 #swift11 透明cell
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift11%20clearTBCell/swift11%20clearTBCell/11.png)
+#swift12 登陆动画
+spring动画
+
+https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift12/swift12/12.gif
