@@ -91,6 +91,13 @@
 			remoteGlobalIDString = 98B908111D378E2700878F20;
 			remoteInfo = swift12;
 		};
+		98B9088A1D38896D00878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B9087A1D38896C00878F20 /* swift13.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B908651D38896C00878F20;
+			remoteInfo = swift13;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +114,7 @@
 		98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift10 videoBG.xcodeproj"; path = "swift10 videoBG/swift10 videoBG.xcodeproj"; sourceTree = "<group>"; };
 		98B907E51D37408700878F20 /* swift11 clearTBCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift11 clearTBCell.xcodeproj"; path = "swift11 clearTBCell/swift11 clearTBCell.xcodeproj"; sourceTree = "<group>"; };
 		98B908261D378E2700878F20 /* swift12.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift12.xcodeproj; path = swift12/swift12.xcodeproj; sourceTree = "<group>"; };
+		98B9087A1D38896C00878F20 /* swift13.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift13.xcodeproj; path = swift13/swift13.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B9087A1D38896C00878F20 /* swift13.xcodeproj */,
 				98B908261D378E2700878F20 /* swift12.xcodeproj */,
 				98B907E51D37408700878F20 /* swift11 clearTBCell.xcodeproj */,
 				98B907921D36342A00878F20 /* swift10 videoBG.xcodeproj */,
@@ -231,6 +240,14 @@
 			isa = PBXGroup;
 			children = (
 				98B908361D378E2700878F20 /* swift12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B9087B1D38896C00878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B9088B1D38896D00878F20 /* swift13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,6 +347,10 @@
 					ProductGroup = 98B908271D378E2700878F20 /* Products */;
 					ProjectRef = 98B908261D378E2700878F20 /* swift12.xcodeproj */;
 				},
+				{
+					ProductGroup = 98B9087B1D38896C00878F20 /* Products */;
+					ProjectRef = 98B9087A1D38896C00878F20 /* swift13.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -421,6 +442,13 @@
 			fileType = wrapper.application;
 			path = swift12.app;
 			remoteRef = 98B908351D378E2700878F20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B9088B1D38896D00878F20 /* swift13.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = swift13.app;
+			remoteRef = 98B9088A1D38896D00878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
