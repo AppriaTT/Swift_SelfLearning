@@ -112,6 +112,13 @@
 			remoteGlobalIDString = 98B908DB1D38CCBD00878F20;
 			remoteInfo = "swift15 animateSplash";
 		};
+		98B909651D3C723B00878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B9093D1D3C723A00878F20;
+			remoteInfo = "swift16 slideMenu";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +138,7 @@
 		98B9087A1D38896C00878F20 /* swift13.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = swift13.xcodeproj; path = swift13/swift13.xcodeproj; sourceTree = "<group>"; };
 		98B908AE1D38C47800878F20 /* swift14 EmojiMachine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift14 EmojiMachine.xcodeproj"; path = "swift14 EmojiMachine/swift14 EmojiMachine.xcodeproj"; sourceTree = "<group>"; };
 		98B908F01D38CCBD00878F20 /* swift15 animateSplash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift15 animateSplash.xcodeproj"; path = "swift15 animateSplash/swift15 animateSplash.xcodeproj"; sourceTree = "<group>"; };
+		98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift16 slideMenu.xcodeproj"; path = "swift16 slideMenu/swift16 slideMenu.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */,
 				98B908F01D38CCBD00878F20 /* swift15 animateSplash.xcodeproj */,
 				98B908AE1D38C47800878F20 /* swift14 EmojiMachine.xcodeproj */,
 				98B9087A1D38896C00878F20 /* swift13.xcodeproj */,
@@ -286,6 +295,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		98B909531D3C723A00878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B909661D3C723B00878F20 /* swift16 slideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -392,6 +409,10 @@
 				{
 					ProductGroup = 98B908F11D38CCBD00878F20 /* Products */;
 					ProjectRef = 98B908F01D38CCBD00878F20 /* swift15 animateSplash.xcodeproj */;
+				},
+				{
+					ProductGroup = 98B909531D3C723A00878F20 /* Products */;
+					ProjectRef = 98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -505,6 +526,13 @@
 			fileType = wrapper.application;
 			path = "swift15 animateSplash.app";
 			remoteRef = 98B909021D38CCBE00878F20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B909661D3C723B00878F20 /* swift16 slideMenu.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift16 slideMenu.app";
+			remoteRef = 98B909651D3C723B00878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
