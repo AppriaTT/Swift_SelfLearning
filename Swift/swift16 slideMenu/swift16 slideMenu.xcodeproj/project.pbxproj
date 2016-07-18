@@ -15,6 +15,7 @@
 		98B909BA1D3CC52300878F20 /* ZHMenuTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B909B91D3CC52300878F20 /* ZHMenuTVController.swift */; };
 		98B909BC1D3CC81900878F20 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B909BB1D3CC81900878F20 /* ViewCell.swift */; };
 		98B909BE1D3CDE0C00878F20 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B909BD1D3CDE0C00878F20 /* TransitionManager.swift */; };
+		98B909E01D3CF54600878F20 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98B909DF1D3CF54600878F20 /* 16.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		98B909B91D3CC52300878F20 /* ZHMenuTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuTVController.swift; sourceTree = "<group>"; };
 		98B909BB1D3CC81900878F20 /* ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
 		98B909BD1D3CDE0C00878F20 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		98B909DF1D3CF54600878F20 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		98B9093F1D3C723A00878F20 /* swift16 slideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				98B909DF1D3CF54600878F20 /* 16.gif */,
 				98B909401D3C723A00878F20 /* AppDelegate.swift */,
 				98B909421D3C723A00878F20 /* ViewController.swift */,
 				98B909441D3C723A00878F20 /* Main.storyboard */,
@@ -134,6 +137,7 @@
 				98B9094B1D3C723A00878F20 /* LaunchScreen.storyboard in Resources */,
 				98B909481D3C723A00878F20 /* Assets.xcassets in Resources */,
 				98B909461D3C723A00878F20 /* Main.storyboard in Resources */,
+				98B909E01D3CF54600878F20 /* 16.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
