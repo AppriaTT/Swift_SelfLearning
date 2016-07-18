@@ -84,5 +84,6 @@ spring动画
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift14%20EmojiMachine/swift14%20EmojiMachine/14.gif)
 
 #swift15 仿twitter 进入动画
-难点应该在核心的动画部分, 要由三段bounds的变化组成的动画
+难点应该在核心的动画部分, 要由三段bounds的变化组成的动画;
+
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift15%20animateSplash/swift15%20animateSplash/15.gif)
