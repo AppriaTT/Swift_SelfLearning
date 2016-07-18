@@ -87,3 +87,8 @@ spring动画
 难点应该在核心的动画部分, 要由三段bounds的变化组成的动画;
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift15%20animateSplash/swift15%20animateSplash/15.gif)
+
+#swift 16 自定义转场动画
+难点有点多, 有个snapshotViewAfterScreenUpdates(false) 置false后明显流畅了 还有待考察原因
+需要反复制作这个转场动画才能灵活运用
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift16%20slideMenu/swift16%20slideMenu/16.gif)
