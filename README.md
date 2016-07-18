@@ -5,6 +5,7 @@
 
 # Swift_SelfLearning
 学习前辈自学swift的小项目 贴上他的github  https://github.com/allenwong/30DaysofSwift  还有他的简书讲解, 如果学习过程中遇到问题就去看看他的操作 http://www.jianshu.com/p/52032bc4cbe4
+#在下面的项目罗列中我会写上自己遇到的一些的问题, 和其中的难点; 有的地方也会有注释
 
 # 争取每天坚持一发, 从代码中感受到swift的美, 争取早日重写公司的app
 
@@ -81,3 +82,7 @@ spring动画
 
 #swift14 转动的表情 选择器
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift14%20EmojiMachine/swift14%20EmojiMachine/14.gif)
+
+#swift15 仿twitter 进入动画
+难点应该在核心的动画部分, 要由三段bounds的变化组成的动画
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift15%20animateSplash/swift15%20animateSplash/15.gif)
