@@ -119,6 +119,13 @@
 			remoteGlobalIDString = 98B9093D1D3C723A00878F20;
 			remoteInfo = "swift16 slideMenu";
 		};
+		98B90A4F1D3F0FA000878F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98B90A361D3F0F9F00878F20;
+			remoteInfo = "swift17 tumblrMenu";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +146,7 @@
 		98B908AE1D38C47800878F20 /* swift14 EmojiMachine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift14 EmojiMachine.xcodeproj"; path = "swift14 EmojiMachine/swift14 EmojiMachine.xcodeproj"; sourceTree = "<group>"; };
 		98B908F01D38CCBD00878F20 /* swift15 animateSplash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift15 animateSplash.xcodeproj"; path = "swift15 animateSplash/swift15 animateSplash.xcodeproj"; sourceTree = "<group>"; };
 		98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift16 slideMenu.xcodeproj"; path = "swift16 slideMenu/swift16 slideMenu.xcodeproj"; sourceTree = "<group>"; };
+		98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift17 tumblrMenu.xcodeproj"; path = "swift17 tumblrMenu/swift17 tumblrMenu.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +187,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */,
 				98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */,
 				98B908F01D38CCBD00878F20 /* swift15 animateSplash.xcodeproj */,
 				98B908AE1D38C47800878F20 /* swift14 EmojiMachine.xcodeproj */,
@@ -303,6 +312,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		98B90A4C1D3F0F9F00878F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B90A501D3F0FA000878F20 /* swift17 tumblrMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,6 +430,10 @@
 				{
 					ProductGroup = 98B909531D3C723A00878F20 /* Products */;
 					ProjectRef = 98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */;
+				},
+				{
+					ProductGroup = 98B90A4C1D3F0F9F00878F20 /* Products */;
+					ProjectRef = 98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -533,6 +554,13 @@
 			fileType = wrapper.application;
 			path = "swift16 slideMenu.app";
 			remoteRef = 98B909651D3C723B00878F20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98B90A501D3F0FA000878F20 /* swift17 tumblrMenu.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift17 tumblrMenu.app";
+			remoteRef = 98B90A4F1D3F0FA000878F20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
