@@ -306,8 +306,8 @@
                                     </constraints>
                                     <variation key="default">
                                         <mask key="constraints">
-                                            <exclude reference="qcM-4k-EOd"/>
                                             <exclude reference="FRn-ZR-Ylk"/>
+                                            <exclude reference="qcM-4k-EOd"/>
                                         </mask>
                                     </variation>
                                 </view>
