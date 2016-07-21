@@ -14,6 +14,7 @@
 		98B90A441D3F0F9F00878F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B90A421D3F0F9F00878F20 /* LaunchScreen.storyboard */; };
 		98B90A521D3F193A00878F20 /* ZHMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B90A511D3F193A00878F20 /* ZHMenuViewController.swift */; };
 		98B90A541D3F1D0D00878F20 /* ZHTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B90A531D3F1D0D00878F20 /* ZHTransitionManager.swift */; };
+		98C67F851D40CCE4009B0BDC /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98C67F841D40CCE4009B0BDC /* 17.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		98B90A451D3F0F9F00878F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98B90A511D3F193A00878F20 /* ZHMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuViewController.swift; sourceTree = "<group>"; };
 		98B90A531D3F1D0D00878F20 /* ZHTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHTransitionManager.swift; sourceTree = "<group>"; };
+		98C67F841D40CCE4009B0BDC /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				98B90A3B1D3F0F9F00878F20 /* ViewController.swift */,
 				98B90A3D1D3F0F9F00878F20 /* Main.storyboard */,
 				98B90A531D3F1D0D00878F20 /* ZHTransitionManager.swift */,
+				98C67F841D40CCE4009B0BDC /* 17.gif */,
 				98B90A511D3F193A00878F20 /* ZHMenuViewController.swift */,
 				98B90A401D3F0F9F00878F20 /* Assets.xcassets */,
 				98B90A421D3F0F9F00878F20 /* LaunchScreen.storyboard */,
@@ -131,6 +134,7 @@
 				98B90A441D3F0F9F00878F20 /* LaunchScreen.storyboard in Resources */,
 				98B90A411D3F0F9F00878F20 /* Assets.xcassets in Resources */,
 				98B90A3F1D3F0F9F00878F20 /* Main.storyboard in Resources */,
+				98C67F851D40CCE4009B0BDC /* 17.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				98B90A4A1D3F0F9F00878F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
