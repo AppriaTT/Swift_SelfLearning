@@ -133,6 +133,13 @@
 			remoteGlobalIDString = 98C67F8F1D40CD5C009B0BDC;
 			remoteInfo = "swift18 limitCharacter";
 		};
+		98C67FE11D41B131009B0BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98C67FC81D41B130009B0BDC;
+			remoteInfo = "swift19 customPullToRefresh";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -155,6 +162,7 @@
 		98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift16 slideMenu.xcodeproj"; path = "swift16 slideMenu/swift16 slideMenu.xcodeproj"; sourceTree = "<group>"; };
 		98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift17 tumblrMenu.xcodeproj"; path = "swift17 tumblrMenu/swift17 tumblrMenu.xcodeproj"; sourceTree = "<group>"; };
 		98C67FA41D40CD5C009B0BDC /* swift18 limitCharacter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift18 limitCharacter.xcodeproj"; path = "swift18 limitCharacter/swift18 limitCharacter.xcodeproj"; sourceTree = "<group>"; };
+		98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift19 customPullToRefresh.xcodeproj"; path = "swift19 customPullToRefresh/swift19 customPullToRefresh.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +203,7 @@
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */,
 				98C67FA41D40CD5C009B0BDC /* swift18 limitCharacter.xcodeproj */,
 				98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */,
 				98B909521D3C723A00878F20 /* swift16 slideMenu.xcodeproj */,
@@ -337,6 +346,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		98C67FDE1D41B130009B0BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C67FE21D41B131009B0BDC /* swift19 customPullToRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -455,6 +472,10 @@
 				{
 					ProductGroup = 98C67FA51D40CD5C009B0BDC /* Products */;
 					ProjectRef = 98C67FA41D40CD5C009B0BDC /* swift18 limitCharacter.xcodeproj */;
+				},
+				{
+					ProductGroup = 98C67FDE1D41B130009B0BDC /* Products */;
+					ProjectRef = 98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -589,6 +610,13 @@
 			fileType = wrapper.application;
 			path = "swift18 limitCharacter.app";
 			remoteRef = 98C67FB91D40CD5D009B0BDC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		98C67FE21D41B131009B0BDC /* swift19 customPullToRefresh.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift19 customPullToRefresh.app";
+			remoteRef = 98C67FE11D41B131009B0BDC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
