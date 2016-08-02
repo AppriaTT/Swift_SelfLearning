@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981E5E531D5047C100EAD2E8 /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981E5E521D5047C100EAD2E8 /* RefreshContents.xib */; };
+		981E5E551D5087F100EAD2E8 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 981E5E541D5087F100EAD2E8 /* 19.gif */; };
 		98C67FCC1D41B130009B0BDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C67FCB1D41B130009B0BDC /* AppDelegate.swift */; };
 		98C67FCE1D41B130009B0BDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C67FCD1D41B130009B0BDC /* ViewController.swift */; };
 		98C67FD11D41B130009B0BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C67FCF1D41B130009B0BDC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981E5E521D5047C100EAD2E8 /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
+		981E5E541D5087F100EAD2E8 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
 		98C67FC81D41B130009B0BDC /* swift19 customPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift19 customPullToRefresh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C67FCB1D41B130009B0BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C67FCD1D41B130009B0BDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				98C67FCB1D41B130009B0BDC /* AppDelegate.swift */,
 				98C67FCD1D41B130009B0BDC /* ViewController.swift */,
+				981E5E541D5087F100EAD2E8 /* 19.gif */,
+				981E5E521D5047C100EAD2E8 /* RefreshContents.xib */,
 				98C67FCF1D41B130009B0BDC /* Main.storyboard */,
 				98C67FD21D41B130009B0BDC /* Assets.xcassets */,
 				98C67FD41D41B130009B0BDC /* LaunchScreen.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981E5E551D5087F100EAD2E8 /* 19.gif in Resources */,
+				981E5E531D5047C100EAD2E8 /* RefreshContents.xib in Resources */,
 				98C67FD61D41B130009B0BDC /* LaunchScreen.storyboard in Resources */,
 				98C67FD31D41B130009B0BDC /* Assets.xcassets in Resources */,
 				98C67FD11D41B130009B0BDC /* Main.storyboard in Resources */,
@@ -286,6 +294,7 @@
 				98C67FDC1D41B130009B0BDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

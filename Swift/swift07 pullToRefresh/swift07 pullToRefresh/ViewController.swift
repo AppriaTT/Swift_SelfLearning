@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     let tableViewC = UITableViewController(style: UITableViewStyle.Plain)
+
     var dataSource = ["🤗🤗🤗🤗🤗", "😅😅😅😅😅", "😆😆😆😆😆"]
     override func viewDidLoad() {
         super.viewDidLoad()
