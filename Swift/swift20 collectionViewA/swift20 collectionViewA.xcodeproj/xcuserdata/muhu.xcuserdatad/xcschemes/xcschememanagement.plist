@@ -4,20 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Swift.xcscheme</key>
+		<key>swift20 collectionViewA.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>21</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>981E5E591D5088D800EAD2E8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>98433A4C1D2D090B00E86747</key>
+		<key>981E5E871D50890D00EAD2E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -28,6 +28,13 @@
 			remoteGlobalIDString = 980012461D333C3400D6136C;
 			remoteInfo = "swift06 findMyLocation";
 		};
+		981E5EA11D50890E00EAD2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981E5E9D1D50890D00EAD2E8 /* swift20 collectionViewA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 981E5E881D50890D00EAD2E8;
+			remoteInfo = "swift20 collectionViewA";
+		};
 		98433A931D2D096200E86747 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */;
@@ -146,6 +153,8 @@
 		980011E21D2E6CEF00D6136C /* swift04 snapchatMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift04 snapchatMenu.xcodeproj"; path = "swift04 snapchatMenu/swift04 snapchatMenu.xcodeproj"; sourceTree = "<group>"; };
 		980012231D2F716700D6136C /* swift05 roll view.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift05 roll view.xcodeproj"; path = "swift05 roll view/swift05 roll view.xcodeproj"; sourceTree = "<group>"; };
 		9800125B1D333C3400D6136C /* swift06 findMyLocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift06 findMyLocation.xcodeproj"; path = "swift06 findMyLocation/swift06 findMyLocation.xcodeproj"; sourceTree = "<group>"; };
+		981E5E9D1D50890D00EAD2E8 /* swift20 collectionViewA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift20 collectionViewA.xcodeproj"; path = "swift20 collectionViewA/swift20 collectionViewA.xcodeproj"; sourceTree = "<group>"; };
+		98316CAD1D52DD6200AAE4AC /* swift20 collectionViewA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "swift20 collectionViewA.app"; path = "/Users/muhu/Documents/Swift_SelfLearning/Swift/build/Debug-iphoneos/swift20 collectionViewA.app"; sourceTree = "<absolute>"; };
 		98433A8F1D2D096100E86747 /* Swift01Timer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift01Timer.xcodeproj; path = Swift01Timer/Swift01Timer.xcodeproj; sourceTree = "<group>"; };
 		98433AB31D2D097A00E86747 /* Swift02CustomFont.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swift02CustomFont.xcodeproj; path = Swift02CustomFont/Swift02CustomFont.xcodeproj; sourceTree = "<group>"; };
 		98433ACA1D2D0A8200E86747 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +175,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		981E5E571D5088D800EAD2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98433A4A1D2D090B00E86747 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,9 +216,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		981E5E9E1D50890D00EAD2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981E5EA21D50890E00EAD2E8 /* swift20 collectionViewA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		98433A441D2D090B00E86747 = {
 			isa = PBXGroup;
 			children = (
+				981E5E9D1D50890D00EAD2E8 /* swift20 collectionViewA.xcodeproj */,
 				98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */,
 				98C67FA41D40CD5C009B0BDC /* swift18 limitCharacter.xcodeproj */,
 				98B90A4B1D3F0F9F00878F20 /* swift17 tumblrMenu.xcodeproj */,
@@ -357,6 +382,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		981E5E591D5088D800EAD2E8 /* swift20 collectionViewA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981E5E7E1D5088D900EAD2E8 /* Build configuration list for PBXNativeTarget "swift20 collectionViewA" */;
+			buildPhases = (
+				981E5E561D5088D800EAD2E8 /* Sources */,
+				981E5E571D5088D800EAD2E8 /* Frameworks */,
+				981E5E581D5088D800EAD2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift20 collectionViewA";
+			productName = "swift20 collectionViewA";
+			productReference = 98316CAD1D52DD6200AAE4AC /* swift20 collectionViewA.app */;
+			productType = "com.apple.product-type.application";
+		};
 		98433A4C1D2D090B00E86747 /* Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98433A5F1D2D090B00E86747 /* Build configuration list for PBXNativeTarget "Swift" */;
@@ -384,6 +426,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Aaron;
 				TargetAttributes = {
+					981E5E591D5088D800EAD2E8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					98433A4C1D2D090B00E86747 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -477,10 +522,15 @@
 					ProductGroup = 98C67FDE1D41B130009B0BDC /* Products */;
 					ProjectRef = 98C67FDD1D41B130009B0BDC /* swift19 customPullToRefresh.xcodeproj */;
 				},
+				{
+					ProductGroup = 981E5E9E1D50890D00EAD2E8 /* Products */;
+					ProjectRef = 981E5E9D1D50890D00EAD2E8 /* swift20 collectionViewA.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
 				98433A4C1D2D090B00E86747 /* Swift */,
+				981E5E591D5088D800EAD2E8 /* swift20 collectionViewA */,
 			);
 		};
 /* End PBXProject section */
@@ -505,6 +555,13 @@
 			fileType = wrapper.application;
 			path = "swift06 findMyLocation.app";
 			remoteRef = 980012641D333C3400D6136C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		981E5EA21D50890E00EAD2E8 /* swift20 collectionViewA.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift20 collectionViewA.app";
+			remoteRef = 981E5EA11D50890E00EAD2E8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		98433A941D2D096200E86747 /* Swift01Timer.app */ = {
@@ -622,6 +679,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		981E5E581D5088D800EAD2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98433A4B1D2D090B00E86747 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,6 +696,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		981E5E561D5088D800EAD2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98433A491D2D090B00E86747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -642,6 +713,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		981E5E691D5088D800EAD2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift20 collectionViewA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppariTT.swift20-collectionViewA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		981E5E6A1D5088D800EAD2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift20 collectionViewA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppariTT.swift20-collectionViewA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		98433A5D1D2D090B00E86747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -729,11 +827,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AppariTT.Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -741,6 +841,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -752,6 +853,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		981E5E7E1D5088D900EAD2E8 /* Build configuration list for PBXNativeTarget "swift20 collectionViewA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981E5E691D5088D800EAD2E8 /* Debug */,
+				981E5E6A1D5088D800EAD2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98433A481D2D090B00E86747 /* Build configuration list for PBXProject "Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
