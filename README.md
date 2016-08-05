@@ -94,3 +94,7 @@ spring动画
 需要反复制作这个转场动画才能灵活运用
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift16%20slideMenu/swift16%20slideMenu/16.gif)
+
+#swift 19 自定义下拉刷新
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift19%20customPullToRefresh/swift19%20customPullToRefresh/19.gif)
