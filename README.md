@@ -94,7 +94,18 @@ spring动画
 需要反复制作这个转场动画才能灵活运用
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift16%20slideMenu/swift16%20slideMenu/16.gif)
+#swift 17 仿tumblr的的弹出菜单效果
 
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift17%20tumblrMenu/swift17%20tumblrMenu/17.gif
+)
+
+#swift 18 限制文字输入
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift18%20limitCharacter/swift18%20limitCharacter/18.gif)
 #swift 19 自定义下拉刷新
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift19%20customPullToRefresh/swift19%20customPullToRefresh/19.gif)
+
+#swift 20 collectionView可点击放大动画效果
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift20%20collectionViewA/20.gif)
