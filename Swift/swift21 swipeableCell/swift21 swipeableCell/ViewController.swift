@@ -54,5 +54,26 @@ class TViewController: UITableViewController {
         
     }
 
+   override func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        let delete = UITableViewRowAction(style: .Normal, title: "delete") { (action: UITableViewRowAction, indexPath: NSIndexPath) -> Void in
+            print("Delete button tapped")
+        }
+    let share = UITableViewRowAction(style: .Normal, title: "🤗\nShare") { (action: UITableViewRowAction!, indexPath: NSIndexPath) -> Void in
+        
+        let firstActivityItem = self.data[indexPath.row]
+        
+        let activityViewController = UIActivityViewController(activityItems: [firstActivityItem.image as NSString], applicationActivities: nil)
+        
+        self.presentViewController(activityViewController, animated: true, completion: nil)
+    }
+    
+    share.backgroundColor = UIColor.redColor()
+    
+    let download = UITableViewRowAction(style: .Normal, title: "⬇️\nDownload") { action, index in
+        print("Download button tapped")
+    }
+    download.backgroundColor = UIColor.blueColor()
+       return[delete,share,download]
+    }
 }
 

@@ -13,6 +13,7 @@
 		98316D821D53072000AAE4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98316D811D53072000AAE4AC /* Assets.xcassets */; };
 		98316D851D53072000AAE4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98316D831D53072000AAE4AC /* LaunchScreen.storyboard */; };
 		98316D931D53076100AAE4AC /* PatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98316D921D53076100AAE4AC /* PatternCell.swift */; };
+		98316DFA1D542E8300AAE4AC /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98316DF91D542E8300AAE4AC /* 21.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		98316D841D53072000AAE4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98316D861D53072000AAE4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98316D921D53076100AAE4AC /* PatternCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternCell.swift; sourceTree = "<group>"; };
+		98316DF91D542E8300AAE4AC /* 21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 21.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				98316D7A1D53072000AAE4AC /* AppDelegate.swift */,
+				98316DF91D542E8300AAE4AC /* 21.gif */,
 				98316D7C1D53072000AAE4AC /* ViewController.swift */,
 				98316D921D53076100AAE4AC /* PatternCell.swift */,
 				98316D7E1D53072000AAE4AC /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98316D851D53072000AAE4AC /* LaunchScreen.storyboard in Resources */,
+				98316DFA1D542E8300AAE4AC /* 21.gif in Resources */,
 				98316D821D53072000AAE4AC /* Assets.xcassets in Resources */,
 				98316D801D53072000AAE4AC /* Main.storyboard in Resources */,
 			);
@@ -290,6 +294,7 @@
 				98316D8B1D53072000AAE4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
