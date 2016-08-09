@@ -109,3 +109,7 @@ spring动画
 #swift 20 collectionView可点击放大动画效果
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift20%20collectionViewA/20.gif)
+
+#swift 21 cell可以左滑显示选择按钮
+
+![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift21%20swipeableCell/swift21%20swipeableCell/21.gif)
