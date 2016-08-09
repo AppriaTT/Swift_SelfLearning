@@ -107,6 +107,8 @@ spring动画
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift19%20customPullToRefresh/swift19%20customPullToRefresh/19.gif)
 
 #swift 20 collectionView可点击放大动画效果
+##imagePath ?? “"//若optionalValue非nil时，newValue的值为optionalValue的值，若optionalValue为nil时，newValue的值为value的值
+guard 语句 我听说过这个叫保镖模式（Bouncer Pattern），这个模式十分的合理。你要在坏情况进门之前把它们挡出去。这让你每次只考虑一种情况，而不用去搞清楚如何同时将所有的条件判断安排在一起。
 
 ![](https://github.com/AppriaTT/Swift_SelfLearning/blob/master/Swift/swift20%20collectionViewA/20.gif)
 
